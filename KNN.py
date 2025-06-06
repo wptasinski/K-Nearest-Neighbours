@@ -8,6 +8,8 @@ from collections import Counter
 import KNN_visualizations as KNNV
 style.use('fivethirtyeight')
 
+
+
 def main():
     data = {
         'y':[[1,1],[1,2],[2,1],[1,0]],
