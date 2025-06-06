@@ -11,6 +11,11 @@ style.use('fivethirtyeight')
 
 
 def main():
+    """
+    Runs the interactive K-Nearest Neighbors classification and visualization.
+    
+    Initializes a labeled 2D dataset, displays it on a plot, and allows the user to input points interactively by clicking. Each input point is classified using the KNN algorithm, visualized with connections to its nearest neighbors, and added to the dataset. The process continues until all user-input points are classified and displayed.
+    """
     data = {
         'y':[[1,1],[1,2],[2,1],[1,0]],
         'b':[[5,4],[5,5],[4,5],[6,1]],
